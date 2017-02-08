@@ -3,7 +3,7 @@
 
 .container {
   margin: 20px auto;
-  height: 257px;
+  height: 275px;
   max-height: 300px;
   max-width: 500px;
   border: 1px solid #00939A; }
@@ -23,8 +23,12 @@ header:hover {
 
 .box-content {
   height: 0px;
-  font-size: 14px;
-  overflow: auto; }
+  font-size: 15px;
+  overflow: auto;
+  transition: 2s ease; }
+
+.big-box {
+  height: 140px; }
 
 p {
   margin: 25px; }
